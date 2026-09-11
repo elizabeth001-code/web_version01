@@ -1,0 +1,453 @@
+*{
+    box-sizing: border-box;
+}
+h1{ font-size: 3.5em;}
+h2{font-size:  2.7em; ;}
+h3{ font-size: 2em;}
+p{ font-size: 1,25em;}
+ul{ list-style: none;}
+
+ header .container{
+    display: flex;
+    margin-top: 0;
+padding: 0px;
+}
+.container { }
+.logo img{
+    margin: 10px;
+       height: 50px;
+       width: 50px;
+    }
+.logo {
+    display: flex;
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding:0;
+    font-size: 30px;
+     
+ }
+ logo span{
+    display: flex;
+    
+ }
+ header{
+    display: flex
+    background-color: ;
+    text-align: center;
+    
+ }
+
+ nav{ 
+    width: 100%;
+    background-color: rgb(28, 29, 29);
+    text-align: right;
+    padding: 20px;
+    font-size: 25px;
+   
+    
+ }
+nav a{text-decoration: none;
+padding: 14px 25px;
+color: #f5f5f5;
+font-family: "Poppins", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+margin: 5px;
+text-transform: capitalize;
+transition:0.3s ;
+}
+nav a:hover {
+    color:  blue;
+  border-radius: 8px;
+    background-color: rgba(227, 19, 182, 0.15);
+}
+#hero{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+     url("../img/importaciones3.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+
+
+}
+ .container h2{
+    color: white
+     }
+h2:hover{color: blue; }
+.container p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+.container button{
+    color:aqua;
+    font-size: 20px;
+    padding: 10px;
+    text-align:center ;
+    background-color: blue;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+button:hover{background-color: orange;}
+
+#seccion2 {
+    background-color: aqua;
+    }
+#seccion2 .container{
+    padding: 130px;
+    text-align: center;
+    font-size: 20px;
+}
+#seccion2 .container h2{
+    color: white;
+}
+#seccion2 .container p{
+    color: rgb(160, 30, 30);
+   
+}
+#somo-proya {
+    background-color:white;
+}
+#somo-proya .container{
+
+}
+#somo-proya .texto1{
+display: flex;
+text-align: center center;
+justify-content: center;
+margin: 0px 200px;
+gap: 20px;
+
+
+
+}
+#somo-proya .carta1{
+   
+    text-align: center;
+    margin-top: 0px  ;
+    margin: 30px;
+    
+
+
+}
+#somo-proya img{
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+#somo-proya p{
+    color: black;
+    
+  font-size: 19px;
+}
+#somo-proya h2{
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+  
+ /*   
+.
+
+ 
+ */   
+#Nuestros-Progamas{
+    background-color:rgb(30,30,30);
+    text-align: center;
+    color: white;
+    
+
+}
+#Nuestros-Progamas .container{
+    padding: 80px 12px;
+}
+#Nuestros-Progamas h2{margin-top: 0;
+
+}
+#Nuestros-Progamas p{display: none;}
+#Nuestros-Progamas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 10px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.carta:first-child{background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+     url("../img/p.png");s
+
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+     url("../img/p2.png");
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+     url("../img/p3.png");
+}
+#Caracteristicas .container{
+  background-color: aqua;
+  text-align: center;
+  padding: 250px 12px;
+  border-radius: 10px;
+
+    
+
+}
+#Caracteristicas ul{
+    color:black
+    font-weight: 50px;
+    margin-top: 30px  20px;
+}
+.servicios .servicios1{
+
+
+}
+.servicios .container{
+    background-color: black;
+    text-align: center;
+    padding: 50px 0px;
+    
+}
+.servicios h2{
+    color: white;
+    font-size: 60px;
+
+}
+.servicios h3{
+    color: white;
+   
+    
+}
+.servicios.cards{
+    
+
+}
+
+    .cards:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+     url("../img/p.png");
+      }
+    .cards:nth-child(2){
+        background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+     url("../img/p2.png");
+     }
+     .cards:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+     url("../img/p3.png");
+    }
+    .servicios .cards{
+        background-position: center center;
+    background-size: cover;
+        padding: 70px 0px;
+        margin: 25px 40px;
+        border-radius: 20px;
+        }
+        
+    /* #seccion6{
+background-color: rgb(67, 64, 48);
+    text-align: center;
+    padding: 10px;
+    
+    background: white;
+border-radius: 10px;
+ padding: 30px;
+ width: 500px;
+ /* hace efecto de tarjeta elevada */
+  /*box-shadow: 0 4px 10px rgba(26, 3, 3, 0.1);
+  text-align: center;/
+    
+
+    }
+/*#seccion6 .cartas{
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+   
+    
+}*/
+   /* #seccion6 .carta{
+        margin:10px  10px 30px 5px;
+    justify-content: center;
+    display: flex;
+     flex-direction: column;
+     background: white;
+     
+     padding: 20px;
+
+    }
+    #seccion6 h3{
+        font-size: 40px;
+        margin-top: 0px;
+    }
+    #seccion6 img{
+        padding: 40px 0px;
+        
+    }*/
+
+    /* escritorio */
+
+
+    
+    @media (min-width:720px){
+        header.container{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        header nav{
+            flex-direction: row;
+            padding-right: 20px;
+           
+            }
+            #seccion2 {
+    
+           }
+           #seccion2 .container{
+          display: flex;
+        
+          
+    
+         }
+         #seccion2 .img{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("../img/pro2.png");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+   width: 500px;
+    
+}
+ #seccion2 .texto{
+    text-align: center center;
+    padding: 50px;
+    margin: 40px;
+ }
+ #Nuestros-Progamas .programas{
+display: flex;
+justify-content: center;
+
+ }
+ #Nuestros-Progamas .carta{
+display: flex;
+ border-radius: 15px;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 20px;
+
+  background-position: center;
+  background-size: cover;
+}
+.carta button{
+    padding: 20px;
+}
+ #Nuestros-Progamas .carta p{
+    display: block;
+    margin-top: 160px;
+    text-align: center;
+
+    
+ }
+#Nuestros-Progamas h3{
+   
+    margin-top:  0px;
+    font-size: 40px;
+ }
+ .servicios .container{
+    text-align: center center;
+
+ }
+ .servicios .servicios1{
+    justify-content: center;
+    display: flex;
+
+ }
+ .servicios .cards {
+    
+   padding: 100px 40px;
+
+ }
+ /* 3 */
+#seccion6 .carta{
+    width: 300px;
+    background: white;
+border-radius: 10px;
+ padding: 30px;
+ /* hace efecto de tarjeta elevada */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+ 
+}
+/* 2 */
+#seccion6 {
+    display: flex;
+    justify-content:   center;
+    gap: 20px;
+}
+/* 1 */
+.carta img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;/*Recorta la imagen sin deformarla */
+    border-radius: 8px;
+}
+.carta h3{
+  margin: 10px 0;
+}
+.carta p{
+  text-align: justify;
+  font-size: 14px;
+}
+
+
+}
+
+
+    
+
+  /*  #somos-proya .texto{
+  
